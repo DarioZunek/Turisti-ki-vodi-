@@ -1,0 +1,215 @@
+body{
+    margin: 0px;
+    padding-top: 0px;
+}
+
+.flightWidget{
+    display: inline-block;
+    width: 500px;
+}
+
+
+.h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    text-shadow: 1px 1px 2px black, 0 0 5px black;
+    padding-top: 50px;
+}
+
+
+#oba{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.logins{
+    background-color: white;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+}
+
+.logins a, span{
+    float: right;
+    color: black;
+    font-family: 'Open Sans';
+    font-size: large;
+    font-weight: 600;
+    padding-right: 10px;
+    vertical-align: bottom;
+}
+
+.logins a:hover{
+    color: #15109b;
+}
+
+.hotelHeader{
+    text-align: center;
+}
+
+.potez{
+    margin: auto;
+    width: 85%;
+    color: darkgray;
+}
+
+
+.weather{
+    width:500px;
+    height: 211px;
+}
+
+#gumbi{
+    padding-top: 50px;
+    width: 25%;
+    margin: auto;
+}
+
+.karta{
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+#nazovi{
+    text-align: center;
+}
+
+[v-cloak] { display: none; }
+
+.tekstualniOkvir{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0px;
+    display: inline-block;
+    width:80%;
+    height: 800px;
+    vertical-align: top;
+    text-align: left;
+    font-size: 16pt;
+}
+
+.tekstualniOkvir p, h3{
+    margin: 30px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  #selektor {
+    background-color: #A5DAD4;
+    border: none;
+    color: black;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    float: left;
+    font-size: 16px;
+    border-right: 1px solid #bbb;
+    margin: 0px;
+  }
+
+  #selektor:hover{
+    background-color: #8ac7c6;
+  }
+
+  #selektor:last-child{
+    border-right: none;
+  }
+
+
+  #lijevi{
+    display: inline-block;
+    width: 510px;
+    height: 800px;
+    vertical-align: top;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #desni{
+    display: inline-block;
+    width: 1300px;
+    height: 800px;
+    vertical-align: top;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #predstavljanje{
+    text-align: center;
+    width: 50%;
+    padding-top: 50px;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+  }
+
+  #saSlikom{
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 25vmax;
+    margin:0px;
+    margin-bottom: 30px;
+  }
+
+  #logo{
+    width: 10%;
+    height: 70px;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../images/logo.JPG);
+    background-position: top;
+    background-size: cover;
+  }
+
+  #logo a{
+    margin-top: 0px;
+    padding-top: 0px;
+    width: 200px;
+    height: 70px;
+  }
+
+  #logo img{
+    display: none;
+  }
+
+  #panel{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+  }
+
+  #panel img{
+    object-fit: cover;
+    width: 30px;
+    height: 30px;
+  }
